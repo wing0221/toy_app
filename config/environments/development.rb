@@ -62,4 +62,6 @@ Rails.application.configure do
 
   config.hosts << "ip-172-31-30-197"
   config.hosts << "1ce765534584464890232bc59aacb628.vfs.cloud9.us-east-2.amazonaws.com"
+  
+  config.hosts.clear
 end
